@@ -12,6 +12,7 @@ while True:
     elif c == "-":
         for i in range(1, n + 1):
             print("Vvedite operand {0}:".format(i), end='')
+            print("Vvedite novii nomer {0}:".format(i), end='')
             a = int(input())
             if i == 0:
                 rez -= a
@@ -20,7 +21,7 @@ while True:
         print("Rezyltat:", rez)
     elif c == "*":
         for i in range(1, n + 1):
-            print("Vvedite operand {0}:".format(i), end='')
+            print("Vvedite operand i nomer {0}:".format(i), end='')
             a = int(input())
             ymnojenie *= a
         print("Rezyltat:", ymnojenie)
